@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Notifications page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/Stylesheet.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <h1>Notifications <span id="num">3</span></h1>
+        <p>Mark all as read</p>
+      </nav>
+
+      <div class="unread-message">
+        <div class="container">
+          <img
+            src="assets/images/avatar-mark-webber.webp"
+            alt="Mark's profile image"
+          />
+          <div class="comment">
+            <p class="dot-container">
+              <span>Mark Webber</span> reacted to your recent post
+              <span>My first tournament today!</span>
+              <span class="dot"></span>
+            </p>
+            <p>1m ago</p>
+          </div>
+        </div>
+
+        <div class="container">
+          <img
+            src="assets/images/avatar-angela-gray.webp"
+            alt="Angela's profile photo"
+          />
+          <div class="comment">
+            <p>
+              <span>Angela Gray</span> followed you
+              <span class="dot"></span>
+            </p>
+            <p>5m ago</p>
+          </div>
+        </div>
+
+        <div class="container">
+          <img
+            src="assets/images/avatar-jacob-thompson.webp"
+            alt="Jacob's profile photo"
+          />
+          <div class="comment">
+            <p>
+              <span>Jacob Thompson</span> has joined your group
+              <span>Chess Club</span>
+              <span class="dot"></span>
+            </p>
+            <p>1 day ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="led-message">
+        <img
+          src="assets/images/avatar-rizky-hasanuddin.webp"
+          alt="Rizky profile photo"
+        />
+        <div class="led-comment">
+          <p><span>Rizky Hasanuddin</span> sent you a private message</p>
+          <p>5 days ago</p>
+        </div>
+      </div>
+
+      <!-- Other led-message sections remain unchanged -->
+      <div class="user-comment">
+        <p>
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </p>
+      </div>
+
+      <div class="img-comment">
+        <div class="led-message">
+          <img
+            src="assets/images/avatar-kimberly-smith.webp"
+            alt="Kimberly profile photo"
+          />
+          <div class="led-comment">
+            <p><span>Kimberly Smith</span> commented on your picture</p>
+            <p>1 week ago</p>
+          </div>
+        </div>
+        <img src="assets/images/image-chess.webp" alt="" />
+      </div>
+
+      <div class="led-message">
+        <img
+          src="assets/images/avatar-nathan-peterson.webp"
+          alt="Nathan's profile photo"
+        />
+        <div class="led-comment">
+          <p>
+            <span>Nathan Peterson</span> reacted to your recent post
+            <span>5 end-game strategies to increase your win rate</span>
+          </p>
+          <p>2 weeks ago</p>
+        </div>
+      </div>
+
+      <div class="led-message">
+        <img
+          src="assets/images/avatar-anna-kim.webp"
+          alt="Anna's profile photo"
+        />
+        <div class="led-comment">
+          <p><span>Anna Kim</span> left the group <span>Chess Club</span></p>
+          <p>2 weeks ago</p>
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="CSS/index.js"></script>
+  </body>
+</html>
